@@ -1,0 +1,12 @@
+a = int(input ("enter the number\n"))
+b=int(input("enter the number\n"))
+c=int(input("enter the number\n"))
+
+if (a==b) and (b==c) and (c==a) :
+    print("given number are equal")
+else:    
+    if (a==b) or (a==c) or (b==c) or (b==a) or (c==a) or (c==b):
+        print("any of two are equal")
+    else:    
+        if (a!=b) or (b!=c) or (c!=a):
+            print("all value are different")
